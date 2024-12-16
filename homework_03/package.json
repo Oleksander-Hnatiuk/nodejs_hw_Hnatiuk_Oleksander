@@ -1,0 +1,35 @@
+{
+  "name": "node",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/server/app.ts",
+  "type": "module",
+  "scripts": {
+    "server": "cross-env NODE_ENV=develop tsx src/server/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oleksander-Hnatiuk/nodejs_hw_Hnatiuk_Oleksander.git"
+  },
+  "author": "Hnatiuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oleksander-Hnatiuk/nodejs_hw_Hnatiuk_Oleksander/issues"
+  },
+  "homepage": "https://github.com/Oleksander-Hnatiuk/nodejs_hw_Hnatiuk_Oleksander#readme",
+  "devDependencies": {
+    "@types/config": "^3.3.5",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "cross-env": "^7.0.3",
+    "js-yaml": "^4.1.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "config": "^3.3.12",
+    "dotenv": "^16.4.7",
+    "colors": "^1.4.0",
+    "express": "^4.21.2"
+  }
+}

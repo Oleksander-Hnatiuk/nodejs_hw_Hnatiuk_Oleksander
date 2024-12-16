@@ -1,0 +1,28 @@
+{
+  "name": "node",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./homework_02/main.js",
+    "prod": "npx cross-env NODE_ENV=production node ./homework_02/main.js",
+    "dev": "npx cross-env NODE_ENV=develop node ./homework_02/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oleksander-Hnatiuk/nodejs_hw_Hnatiuk_Oleksander.git"
+  },
+  "author": "Hnatiuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oleksander-Hnatiuk/nodejs_hw_Hnatiuk_Oleksander/issues"
+  },
+  "homepage": "https://github.com/Oleksander-Hnatiuk/nodejs_hw_Hnatiuk_Oleksander#readme",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "config": "^3.3.12",
+    "cross-env": "^7.0.3"
+  }
+}
